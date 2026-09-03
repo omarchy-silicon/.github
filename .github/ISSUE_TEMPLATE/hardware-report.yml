@@ -1,0 +1,59 @@
+name: Hardware or qualification report
+description: Report exact board evidence or a hardware-specific result; this is not a support claim.
+title: "[hardware] "
+labels:
+  - hardware
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Omarchy Silicon targets all present and future Apple M-series chips and materially distinct boards. No board is currently supported or qualified. A report must not describe a build, boot, or CI result as support.
+  - type: checkboxes
+    id: status
+    attributes:
+      label: Claim boundary
+      options:
+        - label: I understand this report records evidence only and does not claim that the board is supported or qualified.
+          required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Exact machine and board/profile
+      description: Include the model identifier and materially distinct board or hardware profile.
+    validations:
+      required: true
+  - type: input
+    id: chip
+    attributes:
+      label: Exact Apple chip variant
+      description: Include the full variant, not only the M-series family.
+    validations:
+      required: true
+  - type: textarea
+    id: firmware
+    attributes:
+      label: Firmware and boot chain
+      description: Record firmware versions, boot artifacts, and relevant boot configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Tested artifacts
+      description: Give immutable revisions or URLs for kernel, device tree, userspace, installer, and release artifacts.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Test procedure and results
+      description: Include date, exact commands or steps, peripherals tested, failures, and logs with secrets and personal data removed.
+    validations:
+      required: true
+  - type: textarea
+    id: qualification
+    attributes:
+      label: Qualification gaps
+      description: State which required gates were not run or remain unavailable.
+    validations:
+      required: true
