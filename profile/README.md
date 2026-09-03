@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/omarchy-silicon-logo.png" alt="Omarchy Silicon initiative logo" width="760">
+</p>
+
 # Omarchy Silicon
 
 Omarchy Silicon is the engineering program for bringing Omarchy to Apple Silicon across all present and future M-series chips and every materially distinct board or hardware profile.
