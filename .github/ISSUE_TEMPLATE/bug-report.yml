@@ -1,0 +1,50 @@
+name: Reproducible bug report
+description: Report a reproducible engineering failure with exact revision and environment.
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This project is in active development. No Apple Silicon board is currently supported or qualified, and there is no supported installer or release. Do not include secrets or claim support from a successful boot or CI run.
+  - type: input
+    id: repository
+    attributes:
+      label: Affected repository and revision
+      description: Give the exact repository, branch or tag, and commit SHA.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Exact hardware, if applicable
+      description: Optional. Include machine, full Apple chip variant, and board/profile. For hardware evidence or qualification, use the Hardware or qualification report form.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include firmware, boot artifacts, kernel/device-tree revisions, image, and relevant configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest complete sequence and expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and logs
+      description: Include exact errors and redacted logs. Remove credentials, personal data, and private URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: regression
+    attributes:
+      label: Regression and qualification boundary
+      description: State whether this is a regression and which support or qualification gates have not been established.
+    validations:
+      required: true

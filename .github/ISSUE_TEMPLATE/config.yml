@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Central platform tracker
+    url: https://github.com/omarchy-silicon/omarchy-apple-platform/issues
+    about: Use the central tracker for cross-repository engineering reports. No support release or installer is currently available.
+  - name: Central engineering discussions
+    url: https://github.com/omarchy-silicon/omarchy-apple-platform/discussions
+    about: Use the central discussions for project coordination and design questions. This is not a support or qualification claim.
