@@ -51,9 +51,30 @@ body:
     validations:
       required: true
   - type: textarea
+    id: graphics
+    attributes:
+      label: Graphics and display evidence
+      description: Record GPU/AGX behavior, display outputs, modes, suspend/resume, and any external display or acceleration results.
+    validations:
+      required: true
+  - type: textarea
+    id: recovery
+    attributes:
+      label: Rollback and recovery evidence
+      description: Record rollback, recovery, power-loss, and failed-update behavior. State what was not tested.
+    validations:
+      required: true
+  - type: textarea
     id: qualification
     attributes:
       label: Qualification gaps
       description: State which required gates were not run or remain unavailable.
+    validations:
+      required: true
+  - type: textarea
+    id: physical
+    attributes:
+      label: Physical qualification and evidence boundary
+      description: State the exact physical test rig, repetitions, peripherals, dates, and attached evidence. This report records target/progress evidence only and must not claim that the board is supported or qualified.
     validations:
       required: true

@@ -8,4 +8,6 @@ There are no installation instructions or supported recovery steps to provide fr
 
 For an engineering report, use the central platform repository's issue workflow and include the exact machine, Apple chip variant, board/profile, firmware and boot artifacts, software revisions, reproduction steps, and logs with sensitive information removed: https://github.com/omarchy-silicon/omarchy-apple-platform/issues
 
+For project coordination and design questions, use the central engineering discussions: https://github.com/omarchy-silicon/omarchy-apple-platform/discussions
+
 For security vulnerabilities, follow SECURITY.md and use the private advisory interface instead of a public issue.

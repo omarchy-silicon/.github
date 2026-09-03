@@ -1,12 +1,12 @@
 ## Summary
 
-Describe the one focused change and the contract it updates. Keep design, implementation, CI, delivery, and physical qualification claims distinct.
+Describe the one focused change and the contract it updates. This pull request is development/progress work only; it must not claim current support, qualification, or release readiness.
 
 ## Scope and support boundary
 
 - Affected repositories, files, and exact board/profile scope:
 - This change targets all present/future M-series work or a named subset (explain):
-- No board is currently supported or qualified unless exact existing evidence is linked:
+- No board is currently supported or qualified, and this pull request must not claim otherwise:
 - No supported installer or release is implied by this pull request:
 
 ## Evidence
@@ -23,6 +23,7 @@ Describe the one focused change and the contract it updates. Keep design, implem
 
 ## Review checklist
 
+- [ ] This pull request makes no current support, qualification, or release claim; linked evidence describes targets or progress only.
 - [ ] The change does not turn chip recognition, architecture, source-code presence, a green CI run, or a desktop boot into a support claim.
 - [ ] Upstream attribution and applicable license notices are preserved.
 - [ ] Documentation and rollback implications are addressed.

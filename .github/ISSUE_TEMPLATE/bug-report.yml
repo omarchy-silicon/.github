@@ -19,9 +19,7 @@ body:
     id: hardware
     attributes:
       label: Exact hardware, if applicable
-      description: Include machine, full Apple chip variant, and board/profile.
-    validations:
-      required: true
+      description: Optional. Include machine, full Apple chip variant, and board/profile. For hardware evidence or qualification, use the Hardware or qualification report form.
   - type: textarea
     id: environment
     attributes:

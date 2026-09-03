@@ -4,9 +4,9 @@ Omarchy Silicon is in active development. Current repositories contain foundatio
 
 ## Private reporting
 
-Use the central platform repository's private vulnerability advisory interface: https://github.com/omarchy-silicon/omarchy-apple-platform/security/advisories/new
+Use the central platform repository's verified private vulnerability advisory interface: https://github.com/omarchy-silicon/omarchy-apple-platform/security/advisories/new
 
-Maintainers must verify that private vulnerability reporting is enabled for that repository before treating the workflow as active. Until it is verified, still use the exact private advisory interface above and do not publish vulnerability details in an issue, discussion, pull request, or public log. If the interface is unavailable, stop and request maintainer assistance through the GitHub repository without disclosing the vulnerability publicly.
+GitHub sign-in is required. Never open a public issue, discussion, pull request, or public log for a vulnerability. If the interface is unavailable, stop and request maintainer assistance through the GitHub repository without disclosing the vulnerability publicly.
 
 Please include the affected repository and revision, a concise impact statement, reproduction steps that do not destroy data, and any proposed mitigation. Redact credentials, personal data, device identifiers, and private URLs.
 
